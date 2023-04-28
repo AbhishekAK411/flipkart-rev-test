@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+    <div id="screen">
+        <div class="inner-box">
+            <div class="left-box">
+                <div class="left-top">
+                    <h2>Register</h2>
+                    <p>Get access to your orders, Wishlist and Recommendations</p>
+                </div>
+                <div class="left-bottom">
+                    <img src="./flipkart_login_image.JPG" alt="" />
+                </div>
+            </div>
+            <div class="right-box">
+                <div class="right-top">
+                    <div class="input-form">
+                        <form onsubmit="register(event)">
+                            <input id="flipkart_username" type="text" placeholder="Enter your name" />
+                            <input id="flipkart_email" type="email" placeholder="Enter your Email Address" />
+                            <input id="flipkart_password" type="password" placeholder="Enter your password" />
+                            <input id="flipkart_confirm_password" type="password" placeholder="Confirm your password" />
+                        </form>
+                    </div>
+                    <div class="policy">
+                        <p>By continuing, you agree to Flipkart's <span>Terms of Use</span> and <span>Privacy Policy.</span></p>
+                    </div>
+                    <div class="register-button">
+                        <button onclick="register(event)">Register</button>
+                    </div>
+                </div>
+                <div class="right-bot">
+                    <p>Already have an Account? Login Here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+</html>

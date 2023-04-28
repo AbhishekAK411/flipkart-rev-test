@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+    <div id="screen">
+        <div class="inner-box">
+            <div class="left-box">
+                <div class="left-top">
+                    <h2>Login</h2>
+                    <p>Get access to your orders, Wishlist and Recommendations</p>
+                </div>
+                <div class="left-bottom">
+                    <img src="./flipkart_login_image.JPG" alt="" />
+                </div>
+            </div>
+            <div class="right-box">
+                <div class="right-top">
+                    <div class="input-form">
+                        <form onsubmit="login(event)">
+                            <input id="flipkart_login_email" type="email" placeholder="Enter your Email Address" />
+                            <input id="flipkart_login_password" type="password" placeholder="Enter your password" />
+                        </form>
+                    </div>
+                    <div class="policy">
+                        <p>By continuing, you agree to Flipkart's <span>Terms of Use</span> and <span>Privacy Policy.</span></p>
+                    </div>
+                    <div class="register-button">
+                        <button onclick="login(event)">Login</button>
+                    </div>
+                </div>
+                <div class="right-bot">
+                    <p>Don't have an account? Register Here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
